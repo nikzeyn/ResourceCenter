@@ -17,12 +17,13 @@
 
 	Host OS: Linux Centos 8
 	Language: Python 3.6
-	Framework: Django 3
-	Database: Postgres 10
+	Framework: Django 3.0.8
+	Database: Postgres 10.6
 	Http Server: gunicorn 20.0.4
 	Proxy server: ngnix
 	Container: docker > python3.8-buster
-	
+
+
 
 
 
