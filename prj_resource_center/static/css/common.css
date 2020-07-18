@@ -1,0 +1,14 @@
+/* R3C Project-Wide CSS */
+* {
+	background-color: #000;
+	color: #d6d6d6;	
+	font-family: 'Roboto Slab', serif;
+	font-size: 100%;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #00B0F0;
+	font-size: 150%;
+}
+

@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
+	<link rel="stylesheet" href="{% static 'css/common.css' %}">
+	<title>R3C</title>
+</head>
+<body>
+
+	<header class="">
+		<div class="">		
+			<nav>
+				<a class="menu-item" href="http://webserver.zz">Home</a>
+				<a class="menu-item" href="http://webserver.zz/booking">Booking</a>
+				<a class="menu-item" href="http://webserver.zz/#">Other</a>
+				<a class="menu-item" href="http://webserver.zz/#">Another</a>
+
+			</nav>
+		</div>
+		<div class="logo-wrapper">
+			<a class="logo" href="http://webserver.zz">r3c
+			</a>
+		</div>
+	  </header>
+
+	{% block content_home %}
+	{% endblock content_home %}
+
+	{% block content_booking %}
+	{% endblock content_booking %}
+
+	<footer>
+		<h5>footer stuff here from base</h5>
+	</footer>
+	
+</body>
+</html>
