@@ -21,7 +21,14 @@
 	Database: Postgres 10.6
 	Http Server: gunicorn 20.0.4
 	Proxy server: ngnix
-	Container: docker > python3.8-buster
+	Container deatils:
+		docker swarm stack of services:
+			webapp:
+				image: centos8 + django3 + gunicorn20
+			db:
+				image: centos8 + postgres10
+			webserver:
+				image: centos8 + nginx
 
 
 
