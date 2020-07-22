@@ -28,9 +28,47 @@ h1 {
 /* ************************ */
 
 footer {
-	border-top:solid 1px  #d6d6d6;
-
+	width: 80%;
+	border-top: solid 1px #d6d6d6;
+	position: fixed;	
+	bottom: 0;
+	text-align: center;
+	float: right;
+	margin: 1% 10%;
 }
+
+footer a {
+	color: #888;
+	text-decoration: none;
+	margin-right: 2%;
+}
+
+footer a:hover {
+	color: #00B0F0;
+}
+
+.footer_col {
+	width: 47%;
+	/* border-top: solid 1px #d6d6d6; */
+	margin: 1%;
+	display: inline-block;
+}
+
+.footer_col_right {
+	text-align: right;
+}
+
+.footer_col_left {
+	text-align: left;
+}
+
+.social {
+	display: inline-block;
+	margin: 0.2rem 0.6rem;
+}
+
+
+
 
 
 
