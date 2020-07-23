@@ -22,6 +22,26 @@ h1 {
 	font-size: 150%;
 }
 
+.wrapper{	
+	display: grid;
+	/* grid-template-columns: 70% 30%; */
+	/* grid-template-columns: 20% 40% 40%; */
+	grid-template-columns: 1fr 2fr 2fr; /* RECOMMENDED */
+	/* grid-column-gap: 1em;
+	grid-row-gap: 2em; */
+	grid-gap: 2em;
+}
+.wrapper > div {
+	color: black;
+	background: #eee;
+	padding: 1rem;
+}
+
+.wrapper > div:nth-child(odd) {
+	background: #ddd;
+	/* padding: 1rem; */
+}
+
 
 /* ************************ */
 /*			FOOTER			*/
