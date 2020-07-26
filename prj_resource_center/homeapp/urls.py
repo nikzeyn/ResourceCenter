@@ -21,7 +21,7 @@ from django.contrib.auth.views import (
 
 
 urlpatterns = [ 
-    path('', LoginView.as_view() , name='login'),
+    path('', LoginView.as_view(template_name="homeapp/login.html") , name='login'),
     # path('register/', RegisterView.as_view() , name='register'),
 
 ]

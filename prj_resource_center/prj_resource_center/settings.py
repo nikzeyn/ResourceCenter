@@ -31,6 +31,7 @@ INSTALLED_APPS = [
 	'django.contrib.messages',
 	'django.contrib.staticfiles',
 	# r3c apps
+	'homeapp.apps.HomeappConfig',
 	'bookingapp.apps.BookingappConfig',
 ]
 
