@@ -10,8 +10,61 @@
 </head>
 <body>
 
-	<header class="">
-		<div class="">		
+	<div class="main-wrapper">
+
+		<header>
+			<div class="logo-wrapper">
+				<a class="logo" href="http://webserver.zz">
+					<img src="{% static 'images/icon.svg' %}" alt="">
+				</a>
+			</div>
+			<ul>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Feedback</a></li>
+			</ul>
+		</header>
+
+		<nav>
+			APP NAV BAR HERE
+		</nav>
+
+		<main>
+
+			{% block content_home %}
+			{% endblock content_home %}
+
+			{% block content_booking %}
+			{% endblock content_booking %}
+
+		</main>
+
+		<footer>
+			<div class="footer_col footer_col_left">
+				<a href="">Privacy</a>
+				<a href="">Terms</a>
+			</div>
+			<div class="footer_col footer_col_right">
+				<div class="social">In</div>
+				<div class="social">Fb</div>
+				<div class="social">Tw</div>
+				<div class="social">Yt</div>
+				<div class="social">Gt</div>
+				
+			</div>
+			<p>R3C. All rights reserved.</p>
+		</footer>
+
+
+
+	</div>
+
+
+	
+
+
+
+	<!-- <header class="">
+		<div class="">
 			<nav>
 				<a class="menu-item" href="http://webserver.zz">Home</a>
 				<a class="menu-item" href="http://webserver.zz/booking">Booking</a>
@@ -20,19 +73,16 @@
 
 			</nav>
 		</div>
-		<div class="logo-wrapper">
-			<a class="logo" href="http://webserver.zz">r3c
+		<div class="logo-wrapper">			
+			<a class="logo" href="http://webserver.zz">
+				<img src="{% static 'images/icon.svg' %}" alt="">
 			</a>
 		</div>
-	  </header>
+	  </header> -->
 
-	{% block content_home %}
-	{% endblock content_home %}
 
-	{% block content_booking %}
-	{% endblock content_booking %}
 
-	<div class="wrapper">
+	<!-- <div class="wrapper">
 		
 		<div class="box1">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit veritatis amet perferendis corrupti tenetur nobis aperiam dicta dolorem. Tenetur?
@@ -52,11 +102,11 @@
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sequi harum laudantium quas officiis ratione repellat veritatis ipsum repellendus accusantium.
 
 		</div>
-	</div>
+	</div> -->
 	
 
 
-	<footer>
+	<!-- <footer>
 		<div class="footer_col footer_col_left">
 			<a href="">Privacy</a>
 			<a href="">Terms</a>
@@ -70,7 +120,7 @@
 			
 		</div>
 		<p>R3C. All rights reserved.</p>
-	</footer>
+	</footer> -->
 	
 </body>
 </html>
