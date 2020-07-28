@@ -1,0 +1,18 @@
+<svg height="50" width="50"
+		xmlns="http://www.w3.org/2000/svg"
+		version="1.1">
+	<rect height="50" width="50"
+			style="stroke-width:2;stroke:#00B0F0"/>
+			<!-- style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)"/> -->
+		<rect height="15" width="15" x="6" y="25"
+				fill="#fff" />
+		<circle cx="36" cy="32" r="7.5"
+				stroke="#888" stroke-width="1"
+				fill="#888"/>
+		<polygon points="25,6 37,20 13,20"
+				style="fill:#00B0F0;stroke:#00B0F0;stroke-width:1" />	
+
+</svg>
+
+<!-- Use rem if needed -->
+<!-- style="height:2rem;width:2rem;stroke:red; -->
