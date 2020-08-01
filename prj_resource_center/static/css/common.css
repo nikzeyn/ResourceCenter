@@ -214,11 +214,13 @@ footer > p {
 	text-align: center;
 }
 
-.social {
-	/* padding: 0.5rem; */
+.social-wrapper {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	/* grid-auto-rows: 4rem; */
+}
+
+.social-icon > a:hover > img {
+	border-bottom: 1px solid #00B0F0;
 }
 
 /* .social > div {
