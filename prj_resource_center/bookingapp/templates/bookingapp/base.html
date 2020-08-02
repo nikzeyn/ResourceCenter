@@ -1,11 +1,24 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block static_booking %}
+<link rel="stylesheet" href="{% static 'bookingapp/css/bookingapp.css' %}">
+{% endblock static_booking %}
+
 
 {% block content_booking %}
 	
-	<h1>Booking base stuff here!</h1>
+	<div class="booking-content-header">
+		<h1>Book the resource you need before it's gone!</h1>
+	</div>
+	
 	{% block content_booking_home %}
 	{% endblock content_booking_home %}
-	<h1>Booking base stuff here!</h1>	
+	
+	<div class="booking-content-footer">
+		<h5>Can't find what you need? Let's
+			<a href="#">help</a>
+		</h5>
+	</div>
+
 {% endblock content_booking %}

@@ -28,6 +28,22 @@ ul li {
 
 h1 {
 	color: #00B0F0;
+	font-size: 350%;
+}
+
+h2 {
+	font-size: 300%;
+}
+
+h3 {
+	font-size: 250%;
+}
+
+h4 {
+	font-size: 200%;
+}
+
+h5 {
 	font-size: 150%;
 }
 
