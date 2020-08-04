@@ -9,23 +9,23 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-	h1 {
+	/* h1 {
 		color: red;		
 	}
 
 	.button_grey {
 		margin-left: 0.2rem;
 		padding: 0.5rem 1rem;
-	}
+	} */
 
 
 	/* ************************ */
 	/*			HEADER AREA		*/
 	/* ************************ */
 
-	header {
+	/* header {
 		grid-template-columns: 1fr 1px 1fr;		
-	}
+	} */
 
 	
 }
