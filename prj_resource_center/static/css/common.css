@@ -67,19 +67,20 @@ img {
 	margin: 0rem 0.5rem;
 } */
 
-/* .button_grey {
+.button_pri {
 	border: 1px solid #2f3840;
 	background-color: #111315;
-	margin: 0rem 1rem;
+	margin: 0rem 0.5rem;
 	padding: 0.5rem 1rem;
 	border-radius: 0.2rem;
-} */
+}
 
-/* .button_grey:hover {
+.button_pri:hover {
 	border: 1px solid #00B0F0;
 	color: #00B0F0;
 }
 
+/*
 .button_grey:active {
 	border: 1px solid #00B0F0;
 	color: #d6d6d6;
@@ -95,6 +96,10 @@ img {
 	border: 1px solid #00B0F0;
 	color: #d6d6d6;
 	background-color: #00B0F0;
+}*/
+
+header, footer, main, nav {
+	border: 1px solid red;
 }
 
 header {
@@ -107,7 +112,7 @@ nav {
 
 main {
 	grid-area: main;
-	padding: 0.5rem 5rem;
+	/* padding: 0.5rem 5rem; */
 }
 
 footer {
@@ -117,42 +122,45 @@ footer {
 .main-wrapper {
 	height: 100%;
 	display: grid;
-	gap: 2px;
-	grid-template-columns: 1fr 1fr;
+	gap: 0.1rem;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 5rem 4rem 1fr 4rem;
-	grid-template-areas: "header header"
-						"nav nav"
-						"main main"
-						"footer footer";
+	grid-template-areas: "header header header"
+						"nav nav nav"
+						"main main main"
+						"footer footer footer";
 						
-} */
+} 
+
+/*
 
 
 /* ************************ */
 /*			HEADER AREA		*/
 /* ************************ */
 
-/* header {
+header {
 	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
-	grid-auto-rows: 5rem;
+	grid-template-columns: 1fr 1fr;
+	/* grid-auto-rows: 5rem; */
 }
 
 .logo-wrapper {
-	text-align: center;
+	/* text-align: center; */
+	margin-left: 2rem;
 }
- */
-/* .logo {
-	line-height: 5rem; used for vertical aligning
-} */
 
-/* header > ul {
+.logo {
+	line-height: 4.5rem; /* used for vertical aligning */
+}
+
+header > ul {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	line-height: 5rem;
-	height: 100%;
+	line-height: 4.5rem;
+	/* height: 100%; */
 	margin: 0 auto;
-} */
+}
 
 
 /* ************************ */
