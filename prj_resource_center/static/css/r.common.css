@@ -24,6 +24,7 @@
 	footer {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 0.5em 1fr 1fr;
+		column-gap: 15em;
 		grid-template-areas: "footer-line footer-line"
 							"terms social"
 							"all-rights all-rights";
@@ -37,7 +38,8 @@
 
 	.social-wrapper {
 		grid-area: social;
-		margin-top: 0em; 
+		margin-top: 0em;
+		grid-template-columns: repeat(6, 1fr);
 	}
 	
 	.terms-wrapper {
@@ -89,11 +91,7 @@
 	footer {
 		column-gap: 90em;
 	}
-	
-	.social-wrapper {		
-		grid-template-columns: repeat(6, 1fr);
-	}
-	
+		
 	.terms-wrapper {
 		padding-left: 5em;
 	}
