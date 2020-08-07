@@ -63,6 +63,18 @@ img {
 	vertical-align: middle;
 }
 
+input {	
+	border-radius: 0.2rem;
+	/* width: calc(33% - 20px);
+	box-sizing: border-box; */
+	margin: 0rem 0.5rem;
+	padding: 0.5rem 1rem;
+}
+
+input:focus {
+	border: 1px solid #00B0F0;	
+}
+
 .separator {
 	margin: 0rem 0.5rem;
 }
@@ -79,6 +91,17 @@ img {
 	border: 1px solid #00B0F0;
 	color: #00B0F0;
 }
+
+.button_pri:active {
+	border: 1px solid #00B0F0;
+	color: #d6d6d6;
+	background-color: #00B0F0;
+}
+
+/* margin after the last item inline */
+/* input:not(:last-of-type) {
+	margin-right: 20px;
+} */
 
 /*
 .button_grey:active {
@@ -113,6 +136,7 @@ nav {
 main {
 	grid-area: main;
 	/* padding: 0.5rem 5rem; */
+	text-align: center;
 }
 
 footer {
