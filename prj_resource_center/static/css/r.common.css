@@ -55,11 +55,31 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+	footer {
+		/* background-color: chartreuse; */
+	}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+	/* ************************ */
+	/*			FOOTER			*/
+	/* ************************ */
+
+	footer {
+		column-gap: 45em;
+	}
+
+	.terms-wrapper {
+		padding-left: 4em;
+	}
+
+}
+
+/* Extra large screens (1423px and up) */
+@media only screen and (min-width: 1423px) {
 	
 
 	/* ************************ */
@@ -71,11 +91,10 @@
 	}
 	
 	.social-wrapper {		
-		grid-template-columns: repeat(7, 1fr);
+		grid-template-columns: repeat(6, 1fr);
 	}
 	
 	.terms-wrapper {
 		padding-left: 5em;
 	}
-
 }
