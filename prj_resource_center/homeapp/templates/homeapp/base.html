@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block static_home %}
+<link rel="stylesheet" href="{% static 'homeapp/css/homeapp.css' %}">
+{% endblock static_home %}
+
 
 {% block content_home %}
 	

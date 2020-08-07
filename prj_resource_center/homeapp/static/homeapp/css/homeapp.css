@@ -1,24 +1,6 @@
-
-/* #login-title {
-	margin-top: 6rem;
-} */
-
-/* #login-form {
-	margin-top: 5rem;
-	border: solid 1 px green;
-	color: yellow;
-} */
-
-/* input {
-	background-color: darkgreen;
-	border: none;
-	color: white;
-	padding: 5px;
-	border-radius: 8px;
-	width: calc(33% - 20px);
-	box-sizing: border-box;
-} */
-
-/* input:not(:last-of-type) {
-	margin-right: 20px;
-} */
+#login-form {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 0 10%;
+	row-gap: 1rem;
+}

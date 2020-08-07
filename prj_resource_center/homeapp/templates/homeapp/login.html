@@ -3,8 +3,6 @@
 
 	
 {% block content_home_login %}
-	
-	<link rel="stylesheet" href="{% static 'homeapp/css/homeapp.css' %}">
 
 	<h2 id="login-title">Login</h2>
 
@@ -12,7 +10,7 @@
 		{% csrf_token %}		
 		<input id="username" type="text">
 		<input id="password" type="text">
-		<button class="button" id="btn-login">Login</button>
+		<button class="button_pri" id="btn-login">Login</button>
 	</form>
 	
 {% endblock content_home_login %}
