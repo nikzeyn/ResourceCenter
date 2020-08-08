@@ -1,6 +1,19 @@
+/* ************************ */
+/*							*/
+/*		R3C HOMEAPP CSS		*/
+/*		MOBILE_FIRST		*/
+/*							*/
+/* ************************ */
+
+
+/* ************************ */
+/*			LOGIN			*/
+/* ************************ */
+
 #login-form {
 	display: grid;
-	grid-template-columns: 1fr;
+	/* grid-template-columns: 1fr; */
 	padding: 0 10%;
 	row-gap: 1rem;
 }
+
