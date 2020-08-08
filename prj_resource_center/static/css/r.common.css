@@ -57,14 +57,19 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-	footer {
-		/* background-color: chartreuse; */
+	input, .button_pri {
+		padding: 1rem;
 	}
-
+	
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+	input, .button_pri {
+		padding: 0.5rem 1rem;
+	}
+
 
 	/* ************************ */
 	/*			FOOTER			*/
